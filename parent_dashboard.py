@@ -29,7 +29,7 @@ st.success("✅ Logged in successfully")
 # -----------------------------
 # Child profiles
 # -----------------------------
-children = ["Alice", "Bob", "Charlie"]
+children = ["Naresh", "Mounika", "Varshitha"]
 selected_child = st.selectbox("Select child profile", children, index=0)
 
 # -----------------------------
