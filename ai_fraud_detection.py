@@ -115,7 +115,7 @@ with st.sidebar:
 
 # ---------- MAIN APP ----------
 if st.session_state.logged_in:
-    client = OpenAI(api_key="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")
+    client = OpenAI()
 
     st.title("🚨 AI Fraud Detection Dashboard 🚨")
     st.write("Detects fraud in **Text, Email, and Images** ")
@@ -262,3 +262,4 @@ if st.session_state.logged_in:
 else:
 
     st.warning("🔒 Please log in from the sidebar to access the Fraud Detection Dashboard.")
+
