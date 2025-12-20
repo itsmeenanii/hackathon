@@ -4,3 +4,4 @@ numpy
 matplotlib
 pytesseract
 scikit-learn
+open AI
